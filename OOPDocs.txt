@@ -82,6 +82,9 @@ Poly = many
 Morph = forms
 Polymorphism = many forms
 
+Polymorphism in Object-Oriented Programming is the ability to create a variable, a function, or an object that
+has more than one form.
+
 
 
 
