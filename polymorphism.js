@@ -11,6 +11,7 @@ class Animal{
 
 class Rabbit extends Animal{
 	eats(){
+		super.eats();	//This call the parent class
 		console.log(this.name+' eats grass');
 	}
 }
