@@ -2,7 +2,8 @@ ECMAScript 2015
 
 JavaScript Classes
 
-A class is a type of function, function keyword is repaced by keyword class, and properties are assigned inside a constructor() method.
+A class is a type of function, function keyword is repaced by keyword class, and properties are assigned
+inside a constructor() method.
 
 Use the keyword class to create a class, and always add the constructor() method.
 The constructor method is called each time in class object is initialized.
