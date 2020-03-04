@@ -22,9 +22,50 @@ class = A template or a blueprint for creating objects
 4. Polymorphaism = Refactor ugly switch/case statements
 
 
-Object-Oriented Programming, or OOP, is the paradigm for modern application development. it is supported by major languages like JavaScript, Java or C#.
+Object-Oriented Programming, or OOP, is the paradigm for modern application development. it is supported by major
+languages like JavaScript, Java or C#.
 
-1. Encapsulation: Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.
+Terminology
+
+Class
+
+Defines the characteristics of the Object.
+Object
+
+An Instance of a Class.
+Property
+
+An Object characteristic, such as color.
+Method
+
+An Object capability, such as walk.
+Constructor
+
+A method called at the moment of instantiation.
+Inheritance
+
+A Class can inherit characteristics from another Class.
+Encapsulation
+
+A Class defines only the characteristics of the Object, a method defines only how the method executes.
+Abstraction
+
+The conjunction of complex inheritance, methods, properties of an Object must be able to simulate a reality model.
+Polymorphism
+
+Different Classes might define the same method or property.
+
+
+
+1. Encapsulation: Encapsulation is the ability of an object to be a container (or capsule) for its member properties,
+including variables and methods. Or An act of combining properties and methods, related to the same object, is known as
+Encapsulation.
+
+Methods = variable
+
+Member variables & Functions = Private:- Restricted access from outside class
+Member variables & Functions = Public:- Can access anywhere through class object
+
 
 
 
