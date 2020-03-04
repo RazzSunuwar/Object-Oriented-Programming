@@ -92,7 +92,9 @@ users.
 > Hide Details
 > Show Essentials
 
+Abstraction hides certain details and only show the essential features of the object.
 
+This approach improves understandability as well as maintainability of the code.
 
 
 
