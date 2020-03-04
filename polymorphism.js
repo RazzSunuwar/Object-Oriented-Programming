@@ -9,5 +9,11 @@ class Animal{
 	}
 }
 
-let animal = new Animal('Dog');
-animal.eats();
+class Rabbit extends Animal{
+	eats(){
+		console.log(this.name+' eats grass');
+	}
+}
+
+let grass = new Rabbit('Hare');
+grass.eats();			
