@@ -1,7 +1,8 @@
 OBJECT ORIENTED PROGRAMMING
 A programming paradigm centered around objects rather than functions.
 
-According Java Point of view: Object Oriented Programming is a method of programming where code is designed and based on the function and attributes of the objects.
+According Java Point of view: Object Oriented Programming is a method of programming where code is designed and based
+on the function and attributes of the objects.
 
 variable = properties
 function = methods
