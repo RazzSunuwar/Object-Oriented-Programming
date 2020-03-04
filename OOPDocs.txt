@@ -77,6 +77,13 @@ Base => derived
 Note: extends keyword is use for inheritance
 
 
+3. Polymorphism:
+Poly = many
+Morph = forms
+Polymorphism = many forms
+
+
+
 
 
 
