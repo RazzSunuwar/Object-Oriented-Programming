@@ -67,6 +67,17 @@ Member variables & Functions = Private:- Restricted access from outside class
 Member variables & Functions = Public:- Can access anywhere through class object
 
 
+2. Inheritance: Process where one class acquires properties(methods and fields) from another class.
+Property, method and field. In the concept of inheritance the class from where this property is being inheritated is called either Parent Class, Super Class and Base Class. And the class where the properties, methods and fields are being inheritated is called either child class, sub class or derived class.
+
+Parent => child
+Super => sub
+Base => derived
+
+Note: extends keyword is use for inheritance
+
+
+
 
 
 
