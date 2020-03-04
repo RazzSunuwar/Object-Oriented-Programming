@@ -1,0 +1,34 @@
+OBJECT ORIENTED PROGRAMMING
+A programming paradigm centered around objects rather than functions.
+
+According Java Point of view: Object Oriented Programming is a method of programming where code is designed and based on the function and attributes of the objects.
+
+variable = properties
+function = methods
+class = A template or a blueprint for creating objects
+
+4 Pillars of Object-oriented Programming
+
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphaism  = Poly: Many, morphaism: form
+
+
+1. Encapsulation = Reduce complexity + increase reusability 
+2. Abstraction = Reduce comlexity + isolate impact of changes
+3. Inheritance = Eliminate redundant code
+4. Polymorphaism = Refactor ugly switch/case statements
+
+
+Object-Oriented Programming, or OOP, is the paradigm for modern application development. it is supported by major languages like JavaScript, Java or C#.
+
+1. Encapsulation: Encapsulation is the ability of an object to be a container (or capsule) for its member properties, including variables and methods.
+
+
+
+
+
+
+
+

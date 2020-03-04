@@ -1,0 +1,69 @@
+ECMAScript 2015
+
+JavaScript Classes
+
+A class is a type of function, function keyword is repaced by keyword class, and properties are assigned inside a constructor() method.
+
+Use the keyword class to create a class, and always add the constructor() method.
+The constructor method is called each time in class object is initialized.
+
+
+EXAMPLE
+
+class car {				Class = function
+	constructor(brand) {	constructor = method
+	this.carName = brand;
+	}
+}
+mycar = new Car("Ford"); 		mycar = object
+
+
+Note: The constructor method is called automatically when the object is initialized.
+
+
+Methods
+The constructor method is special, it is where you initialize properties, it is called automatically when a class is initiated, and it has to have the exact name "constructor", in fact, if you do not have a constructor method, JavaScript will add an invisible and empty constructor method.
+
+Static Methods
+Statice methods are defined on the class itself, and not on the prototype.
+That means you cannot call a static method on the object (mycar) but on class (Car):
+
+
+Inheritance
+
+To create a class inheritance, use the extends keyword.
+A class created with a class iherits all the methods from the "Car" class:
+
+
+The super() method refers to the parent class.
+
+By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
+Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
+
+
+
+Getters and Setters
+Classes also allows you to use getters and setters.
+
+It can be smart to use getters and setters for your properties, especially if you want to do something special with the vaule before returning them, or before you set them.
+
+To add getters and setters in the class, use get and set keywords.
+
+The name of the getter/setter method cannot be the same as the name of the property, in this case carname.
+
+Many programmer use an underscore character _ before the property name to seperate the getter/setter from the actual property:
+
+
+Hoisting
+Unlike functions, and other JavaScript declarations, class declarations are not hoisted.
+That means that you must declare a class before you can use it:
+
+
+
+"use strict"
+The syntax in classes must be written in "strict mode".
+You will get an error if you do not follow the "strict mode" rules.
+
+
+
